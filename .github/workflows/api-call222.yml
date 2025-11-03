@@ -13,7 +13,7 @@ jobs:
     steps:
       # 첫 번째 스텝:
       - name: Print Actor
-        run: echo "실행자: $GITHUB_ACTOR"
+        run: 'echo "실행자: $GITHUB_ACTOR"'
 
       # 두 번째 스텝:
       - name: Call GitHub API
